@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+html{
+    font-family: "Poppins", sans-serif;
+   
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: saddlebrown;
+  background-color: orange;
+  border: 2px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: transform .5s;
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+/*app title es lo mismo que h1 uno solo que se le puso un clase name*/
+.app__title {
+  
+  text-align: center;
+text-shadow: 2px 2px 0 orange,
+             -2px -2px 0 orange,
+             -2px 2px 0 orange,
+             2px -2px 0 orange;
+}
+
+h1 {
+text-align: center;
+text-shadow: 2px 2px 0 orange,
+             -2px -2px 0 orange,
+             -2px 2px 0 orange,
+             2px -2px 0 orange;
+}
+p {
+  text-align: center;
+  background-color: #fff9;
+  color: black;
+  padding: 15px;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+/* se puede trabajar con contaianer o con app o con el class name que elijas en el app.jsx*/
+.container{
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 100vh;
+}
+
+.phraseAuthor {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
